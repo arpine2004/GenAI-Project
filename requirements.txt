@@ -1,0 +1,50 @@
+# Core Framework 
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12         
+python-dotenv==1.0.1
+
+# LangChain
+langchain==0.3.7
+langchain-core==0.3.17
+langchain-community==0.3.7
+langchain-anthropic==0.3.0
+langchain-groq==0.2.1
+langchain-chroma==0.1.4
+langchain-huggingface==0.1.2
+langchain-text-splitters==0.3.2
+
+#Vector Store
+chromadb==0.5.18
+
+# Embeddings (local, no API key required)
+sentence-transformers==3.3.1
+torch==2.5.1                      
+
+# ML Utilities 
+transformers==4.46.3              
+scikit-learn==1.5.2             
+scipy==1.14.1                 
+numpy==1.26.4                    
+
+# Document Loaders 
+pypdf==5.1.0                      
+docx2txt==0.8                
+unstructured[md]==0.16.5      
+
+#Anthropic SDK 
+anthropic==0.40.0
+
+# HuggingFace Hub
+huggingface_hub>=0.26.0          
+
+# NLP Utilities 
+nltk>=3.9.1                      
+
+# Utilities
+pydantic==2.10.2
+httpx==0.28.0
+
+# Frontend 
+gradio==4.44.1
+

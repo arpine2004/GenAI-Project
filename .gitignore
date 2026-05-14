@@ -1,8 +1,11 @@
+# Secrets / local config
 .env
 .env.local
 .env.*.local
 *.key
 *.pem
+
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -14,9 +17,13 @@ env/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# Vector store + uploads (local data)
 chroma_db/
 uploads/
 audio_recordings/
+
+# OS / editor
 .DS_Store
 Thumbs.db
 .vscode/
