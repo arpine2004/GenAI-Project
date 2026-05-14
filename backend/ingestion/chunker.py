@@ -1,6 +1,6 @@
 """
 Text chunking - splits loaded documents into overlapping chunks
-suitable for embedding and retrieval.
+suitable for embedding and retrieval process.
 """
 
 from typing import List
