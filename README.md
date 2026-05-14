@@ -89,7 +89,7 @@ A full-stack local AI web application that lets you upload your own documents an
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/arpine2004/GenAI-Project.git
 cd <repo-folder>
 
 # 2. Create and activate a virtual environment
