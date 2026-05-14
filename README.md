@@ -24,7 +24,7 @@ A full-stack local AI web application that lets you upload your own documents an
 
 | Model | Role | Type |
 |---|---|---|
-| `claude-opus-4-6` | Q&A, summarisation, image prompting, question generation | Anthropic API |
+| `claude-opus-4-6` | Q&A, summarization, image prompting, question generation | Anthropic API |
 | `llama-3.3-70b-versatile` | Alternative LLM for comparison | Groq API (free tier) |
 | `all-MiniLM-L6-v2` | Document embeddings + keyword extraction | Local (Sentence-Transformers) |
 | `openai/whisper-base` | Speech-to-text transcription | Local (Transformers) |
